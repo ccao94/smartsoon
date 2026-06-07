@@ -69,3 +69,29 @@ docker-compose down -v
 Mettre les PDF de test dans le dossier `data/` à la racine du projet.
 
 ## Structure du repo
+
+smartsoon/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── routers/
+│   │   └── services/
+│   ├── tests/
+│   ├── requirements.txt
+│   └── Dockerfile
+├── data/
+├── docker-compose.yml
+├── .env.example
+├── .gitignore
+└── README.md
+
+## Équipe
+
+| Nom | Rôle |
+|-----|------|
+| Cao Cuong CAO | PM / Software Engineer |
+| Laurent CHHUOK | Software Engineer |
+| Igor GUO | Software Engineer |
+| Thoma BOUDHOU | Cybersecurity Engineer |
+| Igor CONDE ELEOTERIO | Data / IA Engineer |
+| Robin DEBRY | Bio-informatics Engineer |
