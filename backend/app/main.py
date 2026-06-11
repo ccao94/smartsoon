@@ -10,3 +10,10 @@ def health_check():
     return {"status": "ok"}
 
 app.include_router(rag.router)
+from fastapi import FastAPI
+
+app = FastAPI(title="SmartSoon OCR API")
+
+@app.get("/")
+def read_root():
+    return {"status": "ok"}
