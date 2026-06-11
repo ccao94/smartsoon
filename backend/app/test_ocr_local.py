@@ -33,7 +33,7 @@ def test_pipeline_complet(test_file):
         print(f"Extrait (Page 1) : {text[:200]}...")
 
 if __name__ == "__main__":
-    # Liste tes fichiers de test ici
+    # Liste des fichiers de test ici
     fichiers = ["data/scansmpl.pdf"]
     for f in fichiers:
         if os.path.exists(f):
