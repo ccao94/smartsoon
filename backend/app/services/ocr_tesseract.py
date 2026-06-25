@@ -3,13 +3,6 @@ import pytesseract
 from PIL import Image
 import io
 
-
-#====================================================================================
-#============ TODO: Pb du cas ou le PDF contient des images + du texte ===========
-# Notes: Split la logique en 2 fonctions : une pour les images, une pour les PDF scannés
-# (potentiellement dans deux fichiers différents)
-#====================================================================================
-
 def run_tesseract(filepath: str) -> dict:
     pages_data = []
     total_conf = 0.0
