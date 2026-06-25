@@ -1,3 +1,4 @@
+import os
 import re
 from typing import Dict, Any
 import chromadb
@@ -89,6 +90,43 @@ class MedicalDataPipeline:
                 ids=[f"chk_{self.liasse_id}_{metadata['document_id']}_{idx}"]
             )
         return len(chunks)
+    
+    def search(self, query: str, document_id: str, n: int = 5) -> list[dict]:
+        """
+        Search for relevant chunks using multilingual-e5-large embeddings.
+        Enforces strict document boundary isolation audit (T1).
+        """
+        # 1. Format query with the mandatory E5 prefix
+        e5_query = f"query: {query}"
+        
+        # 2. Generate embedding vector using the correct variable 'self.model'
+        query_embedding = self.model.encode(e5_query).tolist()
+        
+        # 3. Query the client collection applying the strict filter rule from Robin
+        results = self.collection.query(
+            query_embeddings=[query_embedding],
+            n_results=n,
+            where={"document_id": document_id}
+        )
+        
+        formatted_chunks = []
+        
+        # 4. Map distance vectors to similarity metrics
+        if results and results["documents"] and results["documents"][0]:
+            documents = results["documents"][0]
+            metadatas = results["metadatas"][0]
+            distances = results["distances"][0] if "distances" in results else [0.0] * len(documents)
+            
+            for idx in range(len(documents)):
+                similarity_score = 1.0 - distances[idx]
+                
+                formatted_chunks.append({
+                    "text": documents[idx],
+                    "metadata": metadatas[idx],
+                    "similarity_score": round(similarity_score, 4)
+                })
+                
+        return formatted_chunks
 
 def process_document(pipeline: MedicalDataPipeline, raw_text: str, metadata: Dict[str, Any]) -> Dict[str, Any]:
     clean_text = pipeline.anonymize_text(raw_text)
