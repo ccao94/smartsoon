@@ -1,0 +1,120 @@
+{
+  "$defs": {
+    "DocTypeEnum": {
+      "enum": [
+        "native_pdf",
+        "scanned_pdf",
+        "image"
+      ],
+      "title": "DocTypeEnum",
+      "type": "string"
+    },
+    "DocumentResult": {
+      "properties": {
+        "doc_id": {
+          "description": "Identifiant unique du fichier (SHA256)",
+          "title": "Doc Id",
+          "type": "string"
+        },
+        "filename": {
+          "description": "Nom original du fichier uploadé",
+          "title": "Filename",
+          "type": "string"
+        },
+        "doc_type": {
+          "$ref": "#/$defs/DocTypeEnum",
+          "description": "Format du document"
+        },
+        "ocr_engine": {
+          "$ref": "#/$defs/OcrEngineEnum",
+          "description": "Moteur OCR utilisé pour l'extraction de texte"
+        },
+        "ocr_confidence": {
+          "description": "Score de confiance OCR moyen sur l'ensemble des pages",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Ocr Confidence",
+          "type": "number"
+        },
+        "page_count": {
+          "description": "Nombre total de pages",
+          "title": "Page Count",
+          "type": "integer"
+        },
+        "pages": {
+          "description": "Liste des résultats d'extraction par page",
+          "items": {
+            "$ref": "#/$defs/PageResult"
+          },
+          "title": "Pages",
+          "type": "array"
+        }
+      },
+      "required": [
+        "doc_id",
+        "filename",
+        "doc_type",
+        "ocr_engine",
+        "ocr_confidence",
+        "page_count",
+        "pages"
+      ],
+      "title": "DocumentResult",
+      "type": "object"
+    },
+    "OcrEngineEnum": {
+      "enum": [
+        "tesseract",
+        "surya",
+        "none"
+      ],
+      "title": "OcrEngineEnum",
+      "type": "string"
+    },
+    "PageResult": {
+      "properties": {
+        "page_number": {
+          "description": "Numéro de la page dans le document (1-indexé)",
+          "title": "Page Number",
+          "type": "integer"
+        },
+        "text": {
+          "description": "Texte brut extrait de la page",
+          "title": "Text",
+          "type": "string"
+        },
+        "confidence": {
+          "description": "Score de confiance OCR pour cette page, entre 0 et 1",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "page_number",
+        "text",
+        "confidence"
+      ],
+      "title": "PageResult",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "status": {
+      "description": "État du processus d'extraction (success/error)",
+      "title": "Status",
+      "type": "string"
+    },
+    "document": {
+      "$ref": "#/$defs/DocumentResult",
+      "description": "Payload détaillé de l'extraction du document"
+    }
+  },
+  "required": [
+    "status",
+    "document"
+  ],
+  "title": "ExtractResponse",
+  "type": "object"
+}
