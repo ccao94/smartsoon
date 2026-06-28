@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "8d995a986b4e3a07e62be75a8b79ecb52b849f8e8bc3d4acd848979ab858ad33",
+    "filename": "4B_questionnaire_patient_Garnier.pdf",
+    "doc_type": "scanned_pdf",
+    "ocr_engine": "tesseract",
+    "ocr_confidence": 0.926,
+    "page_count": 2,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "QUESTIONNAIRE MÉDICAL PATIENT À remplir par l'assuré avant l'expertise — Document confidentiel À Merci de répondre à toutes les questions aussi précisément que possible. 1. informations personnelles Nom de naissance GARNIER Prénom Romain Date de naissance 14/06/1977 Lieu de naissance Lyon (69) N° Sécurité Sociale 1 770614 69083 41 Adresse actuelle 8 traverse des Pins — 13011 Marseille Téléphone 06 12 34 56 78 E-mail romain. garnier@mail.fr Situation familiale Marié, 2 enfants (13 et 9 ans) Profession Charpentier compagnon (SARL Charpentes Méditerranée) 2. Description de l'accident (dans vos propres mots) Date et heure : 06 janvier 2025, vers 9h30 Lieu : Chantier de rénovation toiture — 14 avenue du Merlan, Marseille 14e Ce qui s'est passé : Je montais une échelle double avec une gerbe de liteaux sous le bras droit. Le dernier échelon a cédé. Je suis tombé sur l'épaule droite. J'ai entendu un craquement au moment de l'impact. Prise en charge par le SMUR sur place. Témoins : Mon collègue Didier PASCAL, présent sur le chantier. 3. Symptômes actuels Douleurs : Épaule droite : EVA 6/10 au repos, 9/10 à la mobilisation. Irradiation vers le cou et le bras droit. Lombalgies chroniques (préexistantes, aggravées depuis l'accident) : EVA 4/10 au repos. Fonctionnalité épaule : Impossibilité de lever le bras au-dessus de l'horizontale, Je n'arrive pas à me coiffer ni à attraper un objet sur une étagère haute. Nuits perturbées : je ne peux dormir que sur le côté gauche. Retentissement quotidien : Incapable d'exercer mon métier. Ma femme m'aide pour l'habillage. J'ai arrêté toute activité sportive (pétanque, vélo). 4. Antécédents médicaux Chirurgicaux : Appendicectomie en 1998. Arthroscopie genou gauche en 2019 (ménisque). Médicaux : Lombalgie chronique évoluant depuis 2018 (hernie discale L4-L5 documentée en 2020). Hypertension artérielle traitée depuis 2022. Traitement en cours avant l'accident : Périndopril 5 mg/j (HTA). Ibuprofène 400 mg si douleurs lombaires. Allergies : Pénicilline (urticaire généralisée). Aucune allergie alimentaire connue. 5. Traitements actuels (post-accident) Tramadol LP 100 mg matin et soir. Paracétamol 1g xd/j. Esoméprazole 20 mg/j (protection gastrique). Périndopril 5 mg/j (HTA). Kinésithérapie 3 séances/semaine.",
+        "confidence": 0.921
+      },
+      {
+        "page_number": 2,
+        "text": "6. Vie professionnelie Ancienneté dans le poste : 22 ans de métier. Permis de conduire catégories B et C. CACES nacelle. Arrêt de travail depuis : 06/01/2025 (continu, en cours). Perspective de reprise : Mon chirurgien m'a dit que je ne pourrai plus jamais faire de travail en hauteur. J'ignore si je pourrai reprendre le même poste. Je certifie sur l'honneur l'exactitude des informations ci-dessus. Date : 12 mars 2025 Signature : Romain GARNIER",
+        "confidence": 0.931
+      }
+    ]
+  }
+}

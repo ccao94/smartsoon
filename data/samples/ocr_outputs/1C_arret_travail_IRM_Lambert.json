@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "9254ee9e453841aab67ea6e9fabd0c94456c95a19e12c08abc63dae611cf17c9",
+    "filename": "1C_arret_travail_IRM_Lambert.pdf",
+    "doc_type": "native_pdf",
+    "ocr_engine": "none",
+    "ocr_confidence": 1.0,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "AVIS D'ARRÊT DE TRAVAIL \n \nMédecin prescripteur \nDr Karim BENZARA — RPPS 10003421876 — CHU \nLariboisière \nPatient(e) \nLAMBERT Sophie — née le 12/04/1986 \nN° Sécu \n2 860412 75108 24 \n \nArrêt initial : 03/10/2024 → 20/10/2024 \nMotif : entorse cervicale stade II + contusion épaule droite post-AVP. \n \nProlongation n°1 : 21/10/2024 → 15/11/2024 \nMotif : persistance des cervicalgies, en attente des résultats IRM. \n \nProlongation n°2 : 16/11/2024 → 31/01/2025 \nMotif : hernie discale C5-C6 foraminale droite documentée à l'IRM — syndrome cervico-\nbrachial droit. \n \n \n───────────────────────────────────────────────────────────────────────────────\n─ \n \nCOMPTE-RENDU D'IRM — RACHIS CERVICAL \n \nÉtablissement \nCentre d'Imagerie Médicale Opéra — 75009 Paris \nDate d'examen \n18 octobre 2024 \nRadiologue \nDr Isabelle FONTAINE — RPPS 10006332541 \nPatient(e) \nLAMBERT Sophie — née le 12/04/1986 \n \nTechnique \nIRM 3T sans injection de gadolinium. Séquences sagittales T1, T2, STIR ; axiales T2 en C3-\nC7. \n \nRésultats \nC3-C4 : Disque normal. Pas de conflit disco-radiculaire. \nC4-C5 : Protrusion discale médiane modérée sans répercussion canalaire significative. \nC5-C6 : Hernie discale foraminale droite. Contact radiculaire C6 droit. Diamètre foraminal \ndroit à 2,1 mm (norme > 3 mm). Hypersignal STIR en regard. \nMoelle cervicale : Signal normal, calibre conservé. \n \nConclusion \nHernie discale foraminale droite C5-C6 avec contact radiculaire C6, dans un contexte \ntraumatique (AVP 03/10/2024). \n \nDr Isabelle FONTAINE \nCentre d'Imagerie Médicale Opéra — 75009 Paris \n",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

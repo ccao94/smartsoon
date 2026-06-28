@@ -28,22 +28,28 @@ class MedicalDataPipeline:
         registry.load_predefined_recognizers(languages=[self.lang], nlp_engine=nlp_engine)
         
         # custom medical regex patterns
-        patient_pattern = Pattern(name="patient_name_pattern", regex=r"(?<=patient\s)([A-Z][a-z]+\s[A-Z][a-z]+)", score=1.0)
-        doctor_pattern = Pattern(name="doctor_name_pattern", regex=r"(?<=Dr\s)([A-Z][a-z]+)", score=1.0)
+        patient_pattern = Pattern(name="patient_name_pattern", regex=r"(?i)(?:nom\s*/\s*prénom|patient|assurée)\s*:?\s*([A-ZÀ-Ý][A-ZÀ-Ý\s-]+)", score=1.0)
+        doctor_pattern = Pattern(name="doctor_name_pattern", regex=r"(?i)(?:Dr|Docteur)\s+([A-ZÀ-Ý][a-zà-ý]+(?:\s+[A-ZÀ-Ý][a-zà-ý]+)*)", score=1.0)
         date_pattern = Pattern(name="date_pattern", regex=r"(\d{2}/\d{2}/\d{4})", score=1.0)
         phone_pattern = Pattern(name="phone_pattern", regex=r"(0[1-9]\d{2}\s?\d{2}\s?\d{2}\s?\d{2})", score=0.96)
-        ssn_pattern = Pattern(name="ssn_pattern", regex=r"(\d\s?\d\s?\d\s?\d\s?\d\s?\d\s?\d\s?\d\s?\d\s?\d\s?\d)", score=0.96)
+        ssn_pattern = Pattern(name="ssn_pattern", regex=r"([12]\s?\d{2}\s?\d{2}\s?\d{2,6}[\s,.]?\d{3,5}[\s,.]?\d{2,3}[\s,.]?\d{2})", score=1.0)
+        rpps_pattern = Pattern(name="rpps_pattern", regex=r"(?:RPPS\s*)(\d{11,12})", score=1.0)
         
-        registry.add_recognizer(PatternRecognizer(supported_entity="PERSON", patterns=[patient_pattern, doctor_pattern], supported_language=self.lang))
+        registry.add_recognizer(PatternRecognizer(supported_entity="PATIENT", patterns=[patient_pattern], supported_language=self.lang))
+        registry.add_recognizer(PatternRecognizer(supported_entity="DOCTOR", patterns=[doctor_pattern], supported_language=self.lang))
         registry.add_recognizer(PatternRecognizer(supported_entity="DATE_TIME", patterns=[date_pattern], supported_language=self.lang))
         registry.add_recognizer(PatternRecognizer(supported_entity="PHONE_NUMBER", patterns=[phone_pattern], supported_language=self.lang))
-        registry.add_recognizer(PatternRecognizer(supported_entity="US_SSN", patterns=[ssn_pattern], supported_language=self.lang))
+        registry.add_recognizer(PatternRecognizer(supported_entity="NISS", patterns=[ssn_pattern], supported_language=self.lang))
+        registry.add_recognizer(PatternRecognizer(supported_entity="RPPS", patterns=[rpps_pattern], supported_language=self.lang))
         
         self.anonymize_operators = {
-            "PERSON": OperatorConfig("replace", {"new_value": "PERSON"}),
-            "DATE_TIME": OperatorConfig("replace", {"new_value": "DATE"}),
-            "PHONE_NUMBER": OperatorConfig("mask", {"masking_char": "X", "chars_to_mask": 12}),
-            "US_SSN": OperatorConfig("mask", {"masking_char": "#", "chars_to_mask": 9})
+            "PERSON": OperatorConfig("replace", {"new_value": "<PERSON>"}),
+            "PATIENT": OperatorConfig("replace", {"new_value": "<PATIENT>"}),
+            "DOCTOR": OperatorConfig("replace", {"new_value": "<DOCTOR>"}),
+            "DATE_TIME": OperatorConfig("replace", {"new_value": "<DATE>"}),
+            "PHONE_NUMBER": OperatorConfig("replace", {"new_value": "<PHONE>"}),
+            "NISS": OperatorConfig("replace", {"new_value": "<NISS>"}),
+            "RPPS": OperatorConfig("replace", {"new_value": "<RPPS>"})
         }
         
         self.analyzer = AnalyzerEngine(nlp_engine=nlp_engine, registry=registry)

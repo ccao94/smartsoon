@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "eeb583fa898b8e3a746dc6a9d682a22c25603b7f7329f047173bc3d18c83bc2e",
+    "filename": "3C_ordonnance_Diallo.pdf",
+    "doc_type": "scanned_pdf",
+    "ocr_engine": "tesseract",
+    "ocr_confidence": 0.903,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "Dr Anouk RENARD — Psychiatre RPPS 110005774209 — 18 cours de l'intendance — 33000 Bordeaux Bordeaux, le 10 mars 2024 ORDONNANCE MÉDICALE Patient{e) DIALLO Fatou — née le 15/03/1978 N° SS 2 780315 97205 63 Adresse 3 rue du Palais Gallien — 33000 Bordeaux 1. Veniafaxine LP 225 mg (EFFEXOR® LP) 1 gélule le matin au petit-déjeuner. Boîte de 30 — Renouveler 2 fois. NE PAS SUBSTITUER. 2. Mirtazapine 15 mg (REMERON®) 1 comprimé au coucher. Boîte de 30 — Renouveler 2 fois. 3. Lorazépam 1 mg (TEMESTA®) : 1 comprimé si besoin — maximum 1/j. Boîte de 30 — 1 boîte sans renouvellement. Médicament susceptible d'entraîner une dépendance — Benzodiazépine. 4. Pantoprazole 20 mg 1 comprimé le matin à jeun. Protection gastrique. Boîte de 28 — Renouveler 2 fois. Arrêt de travail en cours jusqu'au 17/06/2024. Dr Anouk RENARD Bordeaux, le 10 mars 2024",
+        "confidence": 0.903
+      }
+    ]
+  }
+}
