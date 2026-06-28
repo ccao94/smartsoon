@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "bff3111334e7395bf18671286ba3071aa4aea3d278682f563c4f8cab1b02d934",
+    "filename": "5A_mission_MMA_Benali.pdf",
+    "doc_type": "scanned_pdf",
+    "ocr_engine": "tesseract",
+    "ocr_confidence": 0.906,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "Montpellier, le 05 maï 2025 MMA ASSURANCES — Direction Sinistres Corporels 14 boulevard de ia Lironde — 34500 Montpellier Dr Philippe SAUNIER Médecin expert — RPPS 100011224538 3 rue de la République — 34000 Montpellier Objet : Mission d'expertise médicale — AVP — Réf. MMA-2025-AVP-772130 Monsieur le Docteur, Nom / Prénom BENALI Nadia Date de naissance 07 août 1992 N° Sécurité Sociale 2 920807 13045 12 Adresse 22 rue des Arceaux — 34000 Montpellier Référence dossier MMA-2025-AVP-772130 Nature du sinistre Collision arrière véhicule/véhicule (passagère côté droit) Date du sinistre 12 février 2025 Arrêt de travail Du 12/02/2025 (en cours) Mission 1. Évaluer les lésions : TC léger, entorse cervicale, contusion genou droit. 2. Analyser les séquelles cognitives post-commotionnelles (syndrome post- commotionnel documenté). 3. Déterminer la consolidation et les préjudices (nomenclature Dintilhac). 4, Se prononcer sur le lien de causalité entre le TC léger du 12/02/2025 et les troubles cognitifs persistants. Honoraires : 400 € TTC. Céline MORNET Gestionnaire sinistres — MMA Montpellier",
+        "confidence": 0.906
+      }
+    ]
+  }
+}

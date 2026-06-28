@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "e8069b2969d90bb8c19a39c07920025342226b17fe11cd23a1bb72820d085545",
+    "filename": "5B_questionnaire_patient_Benali.pdf",
+    "doc_type": "native_pdf",
+    "ocr_engine": "none",
+    "ocr_confidence": 1.0,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "QUESTIONNAIRE MÉDICAL PATIENT \nÀ compléter avant l'expertise médicale \n \nNom \nBENALI \nPrénom \nNadia \nDate de naissance \n07/08/1992 \nN° SS \n2 920807 13045 12 \nAdresse \n22 rue des Arceaux — 34000 Montpellier \nTéléphone \n07 89 12 34 56 \nProfession \nGraphiste indépendante \n \nDescription de l'accident \nDate / heure : 12 février 2025 — 17h45 \nLieu : Avenue de la Pompignane, Montpellier — feu rouge \nRôle dans le véhicule : Passagère avant droite, ceinture portée, airbag déclenché côté \nconducteur. \nDescription : Notre véhicule était arrêté à un feu rouge. Un véhicule nous a percutés par \nl'arrière à grande vitesse. Perte de connaissance brève (quelques secondes selon mon \ncompagnon qui conduisait). Mal de tête immédiat très intense, nausées, et je ne me \nsouviens pas bien de la demi-heure qui a suivi. \n \nSymptômes actuels \nTête / Neurologique : Céphalées quotidiennes (EVA 5/10), surtout le matin et en fin de \njournée. Difficultés de concentration importantes : ne peut pas travailler plus de 45 minutes \nsur écran sans fatigue majeure. Troubles de mémoire à court terme (oubli de mots, \ndifficultés à retrouver des noms). Photophobie et phonophobie persistantes. \nCou : Douleurs cervicales EVA 4/10, limitation de la rotation gauche. \nGenou droit : Douleur à la marche prolongée (> 30 min), craquements à la montée \nd'escaliers. \nPsychologique : Anxiété importante en voiture (passagère). Cauchemars récurrents sur \nl'accident (2 à 3 fois par semaine). Irritabilité. \nRetentissement professionnel : Incapable d'exercer mon activité de graphiste au niveau \nantérieur. Chiffre d'affaires divisé par 4 depuis l'accident. \n \nAntécédents \nAucun antécédent neurologique ou psychiatrique. Pas de migraine préexistante. Pas de \ntraitement chronique avant l'accident. Bilan de santé complet en septembre 2024 : normal. \n \nTraitements actuels \nParacétamol 1g si céphalées (3 à 4 prises par semaine). Amitriptyline 10 mg au coucher \n(prescrit par le neurologue depuis mars 2025). Kinésithérapie cervicale (8 séances \nréalisées). \n \nJe certifie l'exactitude de ces informations. \n \nDate : 29 avril 2025 \nSignature : Nadia BENALI \n",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "95dd4b303e69391b08bf795874831953d0d25003de4b9e02581db5c096d99133",
+    "filename": "2B_CR_operatoire_reeducation_Ouedraogo.pdf",
+    "doc_type": "scanned_pdf",
+    "ocr_engine": "tesseract",
+    "ocr_confidence": 0.904,
+    "page_count": 2,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "COMPTE-RENDU OPÉRATOIRE Établissement CHU Lyon-Sud — Service Orthopédie Traumatologie Date d'intervention 16 janvier 2025 Chirurgien Pr Alain VIGNERON — RPPS 100020094771 Anesthésiste Dr Mélanie CROS — RPPS 10005119344 Patient OUÉDRAOGO Jean-Paul — né le 23/09/1970 N° dossier HCL-2025-0014389 DIAGNOSTIC PRÉ-OPÉRATOIRE Fracture bimalléolaire déplacée de la cheville droite (Weber B/C) avec lésion du ligament tibio-fibulaire inférieur, consécutive à une chute de plain-pied le 14/01/2025. ACTE REALISE Ostéosynthèse par plaque vissée de la fibuia distale droite (plaque 1/3 de tube 6 trous, vis corticales 3,5 mm) avec vissage de la malléole médiale (2 vis spongieuses 4,0 mm) et suture du ligament tibio-fibulaire inférieur antérieur. DEROULEMENT OPÉRATOIRE Décubitus dorsal sous rachianesthésie (bupivacaïne hyperbare 0,5 % 15 mg). Garrot pneumatique à la cuisse 280 mmHg, durée 68 min. Abord latéral fibulaire 8 cm. Réduction anatomique sous amplificateur de brillance. Mise en place de la plaque. Abord médial 4 cm. Vissage malléolaire médial. Ligamentoplastie tibio-fibulaire PDS 0. Fermeture plan par plan, Redon aspirafif. : SUITES IMMÉDIATES Réveil en SSP] sans particularité. Attelle postérieure. Appui interdit 6 semaines. Tinzaparine sodique 4500 UJ/j pendant 6 semaines. Contrôle à J21. Pr Alain VIGNERON Chef de service Orthopédie-Traumatologie — CHU Lyon-Sud BILAN DE FIN DE RÉÉDUCATION Kinésithérapeute Nadège SIMARD — N° ADELI 69 94 1234 7 — Cabinet Espace Kiné Villeurbanne Période 10 mars 2025 — 25 avril 2025 (32 séances) Patient OUÉDRAOGO Jean-Paul — né le 23/09/1970 Bilan final (25 avril 2025) Mobilités : Flexion dorsale 12° (sain 18°), flexion plantaire 38° (sain 45°). Limitation résiduelle en FD. Force musculaire : Testing MRC 4/5 fibulaires, 4+/5 triceps. Périmètre de marche : Illimité en terrain plat. Difficultés sur terrain irrégulier et descente d'escaliers. Douleur EVA : 2/10 au repos, 5/10 à l'effort prolongé (> 30 min).",
+        "confidence": 0.915
+      },
+      {
+        "page_number": 2,
+        "text": "Conclusion Récupération fonctionnelle partielle de ja cheville droïte avec limitations résiduelles attendues à terme. Poursuite de kinésithérapie non justifiée à ce jour. Nadège SIMARD Masseur-kinésithérapeute",
+        "confidence": 0.893
+      }
+    ]
+  }
+}

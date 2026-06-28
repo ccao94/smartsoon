@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "f066966eeb6b849c1b42ad86ca6e22aca9969faa414b499d79880970f59e3805",
+    "filename": "3A_mission_GAN_Diallo.pdf",
+    "doc_type": "native_pdf",
+    "ocr_engine": "none",
+    "ocr_confidence": 1.0,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "Bordeaux, le 22 mars 2024 \n \nGAN ASSURANCES — Direction Prévoyance \nPôle Expertise Médicale — 8 rue d'Astorg, 75008 Paris \n \nDr Marc LEFEUVRE \nMédecin conseil expert — RPPS 10008443601 \n34 cours de Verdun — 33000 Bordeaux \n \n \nObjet : Mission d'expertise médicale — Prévoyance invalidité — Réf. GAN-2024-MLD-\n558821 \n \nMonsieur le Docteur, \n \nNom / Prénom \nDIALLO Fatou \nDate de naissance \n15 mars 1978 \nN° Sécurité Sociale \n2 780315 97205 63 \nAdresse \n3 rue du Palais Gallien — 33000 Bordeaux \nRéférence dossier \nGAN-2024-MLD-558821 \nContrat \nPrévoyance Dirigeants — Garantie Invalidité (ITT/IPP) \nArrêt de travail depuis \n18 septembre 2023 \nMotif déclaré \nBurnout sévère / Trouble dépressif majeur récurrent (F33.2) \n \nMission confiée \n1. Analyser les pièces médicales et les certificats du psychiatre traitant. \n2. Évaluer l'état de santé actuel de l'assurée. \n3. Déterminer si l'état justifie l'Incapacité Totale de Travail (ITT) au sens du contrat. \n4. En cas de stabilisation, évaluer le taux d'IPP selon le barème fonctionnel du \ncontrat. \n5. Se prononcer sur d'éventuels antécédents interférants. \n \nPièces jointes : certificats Dr RENARD (psychiatre, sept. 2023 – mars 2024) — courrier Dr \nETCHEVERRY (médecin traitant) — ordonnances en cours — arrêts de travail successifs. \n \nHonoraires : 300 € TTC. \n \nPauline GROS \nResponsable Pôle Expertise — GAN Assurances Prévoyance \n",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

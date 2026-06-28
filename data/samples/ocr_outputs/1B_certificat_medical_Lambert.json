@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "0743b35f6cdd382b91f4f8e0a0d880dcc62f32f878debe387465f92201a46b89",
+    "filename": "1B_certificat_medical_Lambert.pdf",
+    "doc_type": "native_pdf",
+    "ocr_engine": "none",
+    "ocr_confidence": 1.0,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "CERTIFICAT MÉDICAL INITIAL \nAccidents corporels \n \nÉtablissement \nCHU Lariboisière — Service des Urgences \nDate d'examen \n03 octobre 2024 — 22h14 \nMédecin \nDr Karim BENZARA — RPPS 10003421876 \nPatient(e) \nLAMBERT Sophie — née le 12/04/1986 \nN° Sécu \n2 860412 75108 24 \nAdresse \n47 avenue des Lilas — 93200 Saint-Denis \n \nMOTIF DE CONSULTATION \nPatiente amenée par les pompiers (BSPP) suite à un accident de la voie publique survenu le \n03/10/2024 vers 21h30, rue de la Chapelle à Paris 18e. Collision piétonne/véhicule motorisé. \nChute au sol. Conscience conservée, pas de perte de connaissance initiale. \n \nEXAMEN CLINIQUE À L'ADMISSION \nÉtat général stable, patiente algique, GCS 15. TA 128/82 mmHg, FC 98 bpm, SpO2 99 % \nAA. \nRachis cervical : douleurs à la palpation des épineuses C4-C6, limitation douloureuse de la \nrotation droite. Pas de déficit neurologique. Collier cervical posé. \nÉpaule droite : hématome face antérieure, douleur à la mobilisation, impotence \nfonctionnelle partielle. \nGenou gauche : abrasion cutanée superficielle, sans laxité ligamentaire. \n \nEXAMENS COMPLÉMENTAIRES \nRadiographies rachis cervical, épaule droite, genou gauche : absence de lésion osseuse \ntraumatique. Scanner cérébral sans injection : sans particularité. \n \nDIAGNOSTIC \nEntorse cervicale stade II (Québec Task Force). Contusion épaule droite. Plaie abrasive \ngenou gauche. \n \nTRAITEMENT ET ORIENTATION \nCollier cervical rigide 10 jours. Paracétamol 1g x4/j + ibuprofène 400 mg x3/j. Arrêt de travail \njusqu'au 20/10/2024. Ordonnance de kinésithérapie cervicale (10 séances). IRM rachis \ncervical recommandée à J15. \n \nCertificat établi à la demande de la patiente — CHU Lariboisière, le 03/10/2024 \n \nDr Karim BENZARA \nService des Urgences — CHU Lariboisière — 2 rue Ambroise Paré, 75010 Paris \n",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

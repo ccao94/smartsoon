@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "c0a2100bc3aa7cb39a36a666a8ee9a8e7d15884c97735d26b2388852cb68405c",
+    "filename": "6B_questionnaire_patient_Marchand.pdf",
+    "doc_type": "native_pdf",
+    "ocr_engine": "none",
+    "ocr_confidence": 1.0,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "QUESTIONNAIRE MÉDICAL PATIENT \nExpertise prévoyance invalidité — Confidentiel \n \nNom \nMARCHAND \nPrénom \nThierry \nDate de naissance \n18/03/1966 \nN° SS \n1 660318 75023 57 \nAdresse \n14 rue de la Faisanderie — 75016 Paris \nTéléphone \n06 78 90 12 34 \nProfession \nDirecteur clientèle corporate — BNP Paribas \n \nDescription de l'événement de santé \nDate : 22 avril 2024 \nCirconstances : Douleur thoracique constrictive brutale survenue au bureau vers 10h, \nirradiant dans le bras gauche et la mâchoire. Appel du 15 par mon assistante. Prise en \ncharge SAMU, thrombolyse préhospitalière. Transfert direct en salle de cathétérisme à \nl'Hôpital Lariboisière. \nHospitalisation : 12 jours en USIC (unité de soins intensifs cardiologiques) puis 10 jours en \nrééducation cardiaque (SSR de Bois-Guillaume). \n \nSymptômes actuels (septembre 2024) \nCardiaques : Essoufflement au moindre effort (monter un étage = dyspnée grade II NYHA). \nFatigue permanente, impossible de marcher plus de 500 mètres sans s'arrêter. Palpitations \noccasionnelles le soir. \nPsychologique : Anxiété permanente autour de ma santé. Peur de faire un deuxième \ninfarctus. Troubles du sommeil. Mon cardiologue évoque un syndrome anxio-dépressif \nréactionnel. \nRetentissement professionnel : Mon poste exige des déplacements fréquents (trains, \navions), des réunions sous pression, des délais serrés. Mon cardiologue m'a formellement \ninterdit tout stress professionnel intensif et tout voyage aérien long-courrier pour au moins \n12 mois. \n \nAntécédents médicaux AVANT l'infarctus \nFacteurs de risque cardiovasculaire connus : Hypertension artérielle (traitement depuis \n2018). Hypercholestérolémie familiale (statine depuis 2019). Tabagisme sevré en 2020 (30 \nPA). IMC 27,4 (surpoids modéré). \nSuivi cardiologique antérieur : Aucun antécédent cardiaque documenté. \nÉlectrocardiogramme de médecine du travail en janvier 2024 : normal. \n \nTraitements actuels \nAspirine 100 mg/j. Ticagrélor 90 mg x2/j (bi-antiagrégation). Bisoprolol 5 mg/j. Ramipril 5 \nmg/j. Rosuvastatine 40 mg/j. Éplérénone 25 mg/j. Pantoprazole 40 mg/j. \n \nJe certifie l'exactitude de ces informations. \n \nDate : 04 septembre 2024 \nSignature : Thierry MARCHAND \n",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

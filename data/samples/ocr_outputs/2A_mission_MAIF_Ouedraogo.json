@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "a5a0131a99040e3bb99c9973a652e3d6d08ea2333af5aab1cf66cad108b465f5",
+    "filename": "2A_mission_MAIF_Ouedraogo.pdf",
+    "doc_type": "native_pdf",
+    "ocr_engine": "none",
+    "ocr_confidence": 1.0,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "Lyon, le 07 février 2025 \n \nMAIF — Délégation Rhône-Alpes \nGestion des Sinistres Corporels \n8 rue du Président Herriot — 69002 Lyon \n \nDr François PELTIER \nMédecin expert agréé — RPPS 10007885120 \n22 cours Vitton — 69006 Lyon \n \n \nObjet : Mission d'expertise médicale — Réf. MAIF-2025-ERP-003812 \n \nMonsieur le Docteur, \n \nNom / Prénom \nOUÉDRAOGO Jean-Paul \nDate de naissance \n23 septembre 1970 \nN° Sécurité Sociale \n1 700923 21034 88 \nAdresse \n12 impasse des Acacias — 69100 Villeurbanne \nRéférence dossier \nMAIF-2025-ERP-003812 \nNature du sinistre \nChute de plain-pied dans un ERP (centre commercial) \nDate du sinistre \n14 janvier 2025 \n \nMission confiée \n1. Analyser les pièces médicales du dossier. \n2. Évaluer les lésions imputables à l'accident du 14/01/2025. \n3. Fixer la date de consolidation médico-légale. \n4. Quantifier les préjudices : ITT/ITIPP, AIPP, souffrances endurées (barème SML), \npréjudice esthétique. \n5. Se prononcer sur l'existence d'un état antérieur et son incidence. \n \nPièces jointes : rapport SAMU/pompiers 14/01/2025 — CR opératoire CHU Lyon-Sud (ORIF \ncheville droite, 16/01/2025) — CR de rééducation (janv.–avr. 2025) — arrêts de travail. \n \nHonoraires : 380 € TTC. \n \nSébastien ARCHAMBAULT \nChargé de mission — MAIF Délégation Rhône-Alpes \n",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

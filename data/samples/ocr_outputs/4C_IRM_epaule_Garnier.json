@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "document": {
+    "doc_id": "7e160a77574d84ab6153674c4af8f6d5d26b2d3589a396527b06e98b8f80645d",
+    "filename": "4C_IRM_epaule_Garnier.pdf",
+    "doc_type": "native_pdf",
+    "ocr_engine": "none",
+    "ocr_confidence": 1.0,
+    "page_count": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "COMPTE-RENDU D'IRM — ÉPAULE DROITE \n \nÉtablissement \nClinique du Parc — Service Imagerie — 13009 Marseille \nDate d'examen \n23 janvier 2025 \nRadiologue \nDr Martine COSTE — RPPS 10004552198 \nPrescripteur \nDr LASSERRE — Hôpital Nord Marseille \nPatient \nGARNIER Romain — né le 14/06/1977 \nN° dossier \nCLN-2025-IRM-00887 \n \nTECHNIQUE \nIRM 1,5T sans injection de gadolinium. Séquences : coronales DP fat-sat, T1 ; sagittales T2 \n; axiales DP fat-sat. Champ d'exploration : épaule droite complète (coiffe des rotateurs, \nespace sous-acromial, labrum, biceps). \n \nRÉSULTATS \nCoiffe des rotateurs \nSus-épineux : Rupture transfixiante complète du tendon du sus-épineux (supra-épineux), \navec rétraction du moignon tendineux à 2,1 cm de l'insertion sur le tubercule majeur. Liseré \nliquidien épanchement dans la bourse sous-acromio-deltoïdienne. Muscle sus-épineux : \nstade Goutallier 1 (infiltration graisseuse débutante). \nSous-épineux : Tendon intact, signal légèrement hétérogène en rapport avec une \ntendinopathie sans rupture. Aucune rétraction. \nSous-scapulaire : Tendon intact, normal. \nPetit rond : Normal. \n \nBiceps \nTendon du chef long du biceps : subluxation médiale dans la gouttière bicipitale. Aspect \neffiloché sans rupture complète. \n \nEspace sous-acromial \nÉpanchement dans la bourse sous-acromio-deltoïdienne (hauteur max 8 mm). Acromion de \ntype III (aquilin) favorisant le conflit. Pas d'éperons calcifiés significatifs. \n \nArticulation gléno-humérale \nÉpanchement articulaire modéré. Labrum antérieur et postérieur intact. Pas de lésion de \nBankart ni de Hill-Sachs. \n \nOs \nContusion osseuse du tubercule majeur (hypersignal STIR, cohérent avec l'impact direct de \nchute). Pas de fracture franche détectée. \n \nCONCLUSION \nRupture transfixiante complète du tendon du sus-épineux droit avec rétraction à 2,1 \ncm, contusion osseuse du tubercule majeur et subluxation du tendon bicipital, dans \nle contexte d'un traumatisme direct (chute d'échelle du 06/01/2025). Bourse sous-\nacromio-deltoïdienne réactionnelle. Aspect pré-existant d'acromion de type III à \ndiscuter avec le clinicien. \n \nDr Martine COSTE \nRadiologue — Clinique du Parc Marseille — 23/01/2025 \n",
+        "confidence": 1.0
+      }
+    ]
+  }
+}
