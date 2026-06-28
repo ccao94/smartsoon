@@ -3,33 +3,13 @@ import json
 import logging
 from typing import Optional
 from mistralai import Mistral
+from app.core.prompts import SYSTEM_PROMPT_MEDICAL
 
 logger = logging.getLogger(__name__)
 
-# Prompt système très strict pour forcer les citations et éviter les hallucinations
-SYSTEM_PROMPT = """Tu es un assistant médical spécialisé dans la rédaction de rapports d'expertise.
+# Le prompt système est défini dans app/core/prompts.py
+SYSTEM_PROMPT = SYSTEM_PROMPT_MEDICAL
 
-RÈGLES STRICTES :
-1. Tu ne peux utiliser QUE les informations présentes dans les chunks fournis.
-2. Pour chaque affirmation, tu DOIS citer la source au format {document_id, page_number}.
-3. Tu ne dois JAMAIS utiliser de connaissances externes ou inventer des informations.
-4. Si les chunks ne contiennent pas assez d'informations, dis-le explicitement.
-5. Réponds uniquement en JSON avec le format suivant :
-
-{
-  "sections": [
-    {
-      "title": "Titre de la section",
-      "content": "Contenu rédigé avec citations",
-      "citations": [
-        {"document_id": "xxx", "page_number": 1, "excerpt": "extrait utilisé"}
-      ]
-    }
-  ],
-  "confidence": 0.85,
-  "missing_info": ["liste des informations manquantes si applicable"]
-}
-"""
 
 def generate_report(
     chunks: list[dict],
