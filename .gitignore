@@ -34,3 +34,4 @@ data/
 # Dans data/samples, on ignore les sources mais on garde les outputs
 data/samples/inputs/
 !data/samples/ocr_outputs/
+!data/samples/anon_outputs/
