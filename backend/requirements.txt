@@ -4,7 +4,7 @@ python-multipart==0.0.9
 pytesseract==0.3.13
 PyMuPDF==1.24.0
 Pillow==10.4.0
-mistralai
+mistralai==2.5.0
 langfuse
 sentence-transformers
 chromadb
@@ -13,5 +13,5 @@ torch
 spacy
 presidio-analyzer
 presidio-anonymizer
-llama-index-core
+llama-index-core==0.14.22
 https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.7.0/fr_core_news_lg-3.7.0-py3-none-any.whl
