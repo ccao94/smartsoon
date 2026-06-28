@@ -26,5 +26,11 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
-# Données locales (non versionnées)
+
+# Données locales
 data/
+!data/samples/
+
+# Dans data/samples, on ignore les sources mais on garde les outputs
+data/samples/inputs/
+!data/samples/ocr_outputs/
