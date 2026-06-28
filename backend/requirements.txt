@@ -15,3 +15,4 @@ presidio-analyzer
 presidio-anonymizer
 llama-index-core==0.14.22
 https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.7.0/fr_core_news_lg-3.7.0-py3-none-any.whl
+numpy<2.0
