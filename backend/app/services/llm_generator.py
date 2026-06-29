@@ -2,6 +2,7 @@ import os
 import json
 import logging
 from typing import Optional
+from app.core.prompts import SYSTEM_PROMPT_MEDICAL
 from mistralai.client import Mistral
 
 logger = logging.getLogger(__name__)
