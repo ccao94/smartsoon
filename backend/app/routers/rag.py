@@ -86,7 +86,7 @@ async def process_medical_document(
         )
 
 
-# --- Modèle et endpoint orchestration LLM (C3) ---
+# --- Modèle et endpoint orchestration LLM ---
 
 class GenerationPayload(BaseModel):
     document_id: str = Field(..., description="Identifiant du document préalablement indexé.")
