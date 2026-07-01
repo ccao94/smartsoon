@@ -36,7 +36,7 @@ def run_full_rag_pipeline(
         logger.info(f"Envoi de {len(chunks_for_llm)} chunks à Mistral EU pour génération.")
         llm_response = generate_report(chunks=chunks_for_llm, query=enriched_query)
 
-        # Gestion de l'Output Guard de Thoma
+        # Gestion de l'Output Guard 
         if "error" in llm_response:
              logger.error(f"Échec de la génération LLM : {llm_response['error']}")
              return {"status": "error", "message": llm_response['error']}
