@@ -56,7 +56,7 @@ def generate_report(
             "total_tokens": response.usage.total_tokens,
         }
 
-        # OUTPUT GUARD (Securité Thoma)
+        # OUTPUT GUARD
         if _check_output_phi(raw_text):
              logger.error("Output Guard déclenché : PHI détecté dans la réponse de Mistral.")
              return {"error": "La réponse a été bloquée pour des raisons de sécurité (présence de données sensibles)."}
