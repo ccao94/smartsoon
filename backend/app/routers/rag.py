@@ -1,14 +1,12 @@
 from fastapi import APIRouter, HTTPException, status, Query
 from pydantic import BaseModel, Field
-from app.services.medical_pipeline import MedicalDataPipeline, process_document
+from app.services.medical_pipeline import MedicalDataPipeline, process_document, PHILeakError
 from app.services.logger_service import log_pipeline_event
 from app.services.orchestrator import run_full_rag_pipeline
 from typing import Dict, Any
 
 router = APIRouter(prefix="/rag", tags=["RAG & Anonymisation"])
 
-
-# --- Modèles d'ingestion ---
 
 class DocumentPayload(BaseModel):
     raw_text: str = Field(
@@ -43,15 +41,13 @@ class ProcessedDocumentResponse(BaseModel):
         "json_schema_extra": {
             "example": {
                 "original": "Rapport médical du patient Jean Dupont. Diagnostic de fracture du fémur par le Dr Lambert le 12/04/2026.",
-                "anonymized": "Rapport médical du patient PERSON. Diagnostic de fracture du fémur par le PERSON le DATE.",
+                "anonymized": "Rapport médical du patient <PATIENT>. Diagnostic de fracture du fémur par le <DOCTOR> le <DATE>.",
                 "chunks": 2,
                 "document_id": "doc_abc_123"
             }
         }
     }
 
-
-# --- Endpoint ingestion et anonymisation ---
 
 @router.post(
     "/process", 
@@ -79,14 +75,19 @@ async def process_medical_document(
         )
         
         return resposta
+
+    except PHILeakError as e:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail=f"Fail-closed : données sensibles résiduelles détectées. {str(e)}"
+        )
+
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, 
             detail=str(e)
         )
 
-
-# --- Modèle et endpoint orchestration LLM ---
 
 class GenerationPayload(BaseModel):
     document_id: str = Field(..., description="Identifiant du document préalablement indexé.")
