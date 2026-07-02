@@ -5,7 +5,7 @@
     "filename": "2B_CR_operatoire_reeducation_Ouedraogo.pdf",
     "doc_type": "scanned_pdf",
     "ocr_engine": "tesseract",
-    "ocr_confidence": 0.904,
+    "ocr_confidence": 0.905,
     "page_count": 2,
     "pages": [
       {
@@ -16,7 +16,7 @@
       {
         "page_number": 2,
         "text": "Conclusion Récupération fonctionnelle partielle de ja cheville droïte avec limitations résiduelles attendues à terme. Poursuite de kinésithérapie non justifiée à ce jour. Nadège SIMARD Masseur-kinésithérapeute",
-        "confidence": 0.893
+        "confidence": 0.895
       }
     ]
   }
